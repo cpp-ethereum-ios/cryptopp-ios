@@ -25,7 +25,8 @@ mkdir armv7s
 echo "****************************************"
 . ./setenv-ios.sh iphoneos arm64
 $MAKE clean
-$MAKE static
+# workaround for failing arm64 build:
+CXXFLAGS="-DCRYPTOPP_BOOL_ARM_CRC32_INTRINSICS_AVAILABLE=0" $MAKE static
 mkdir arm64
 \cp libcryptopp.a arm64/libcryptopp.a
 
