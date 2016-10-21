@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
   spec.name = "Cryptopp"
   spec.summary = "Crypto++ Library"
-  spec.homepage = 'https://github.com/markspanbroek/cryptopp-ios'
+  spec.homepage = 'https://github.com/cpp-ethereum-ios/cryptopp-ios'
   spec.authors = "Crypto++ Authors"
   spec.license = "Boost License"
 
-  spec.version = "5.7.pre.0"
+  spec.version = "5.6.5.0"
 
   spec.source = {
-    git: 'https://github.com/markspanbroek/cryptopp-ios.git',
+    git: 'https://github.com/cpp-ethereum-ios/cryptopp-ios.git',
     tag: "v#{spec.version}",
     submodules: true
   }
