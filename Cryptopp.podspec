@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.authors = "Crypto++ Authors"
   spec.license = "Boost License"
 
-  spec.version = "5.6.5.0"
+  spec.version = "5.6.4.0"
 
   spec.source = {
     git: 'https://github.com/cpp-ethereum-ios/cryptopp-ios.git',
